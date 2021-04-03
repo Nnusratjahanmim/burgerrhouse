@@ -1,0 +1,470 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+/*header start*/
+.img{
+  width:150px; 
+}
+.menu ul li a{
+	font-size: 18px;
+	padding: 5px 0 !important;
+      text-align: right;
+   }
+/*header end*/
+/*slider start*/
+.cid {
+    bottom: -20px;
+
+}
+.cid [data-bs-target] {
+    width:6px;
+    height: 6px;
+     margin-right: 0;
+}
+.banner h2 {
+    font-size: 40px;
+  }
+  .banner p {
+    font-size: 18px;
+}
+.no-outline a {
+    margin: 0 10px 300px;
+}
+
+/*slider start*/
+ /*single start*/ 
+ .story {
+    margin: 20px 0;
+}
+ .story:hover span {
+    width: 50px;
+}
+.single-item h1 {
+    top: 28px;
+    left: 10px;
+    font-size: 20px;
+    line-height: 20px;
+}
+.single-item h2 {
+    font-size: 16px;
+    top: 10px;
+    left: 10px;
+}
+.single-item2 h1 {
+    top: 16px;
+    left: 8px;
+    font-size: 14px;
+}
+.single-item2 h2 {
+    top: 6px;
+    left: 8px;
+    font-size: 10px;
+}
+/*single end*/
+/*meun*/
+.men-item img {
+    margin-right: 10px;
+    width: 40px;
+    float: left;
+  }
+  .men-ingredients p {
+    font-size: 16px !important;
+}
+.men-content span {
+    padding: 0 0 0 80px;
+    font-size: 22px !important;
+}
+.men-content a::after {
+    width: 60px;
+    left: 120px;
+    top: 14px;
+  }
+  .menu-flters li {
+    padding: 8px;
+  }
+.men-content a {
+    font-size: 22px !important;
+  }
+.food p {
+    font-size: 25px;
+  }
+
+.food h1 {
+    font-size: 36px;
+}
+.m_food:hover span {
+    width: 50px;
+}
+/*event strat*/
+.slider1{
+    margin-top: 50px;
+}
+
+.cid1 {
+    bottom:-16px ;
+}
+
+.cid1 [data-bs-target] {
+    width:10px;
+    height: 10px;
+     margin-right: 0;
+}
+.e_p{
+   font-size:14px;
+  margin:6px 0 0 ;
+}
+.e_h3{
+  font-size:25px;
+  margin:8px  0 ;
+}
+.e_p1{
+ font-size:14px;
+}
+
+ul li p{
+  font-size: 14px;
+  margin:6px 0 6px 30px;
+}
+ul li i{
+  margin: 12px 0 ;
+  font-size:30px;
+}
+/*event end*/
+/*chef start*/
+.social a {
+    margin: 0px 5px;
+  }
+
+/*reservation start*/
+.r-text{
+  margin:50px 0 ;
+}
+.r-text p{
+  font-size: 22px;
+}
+.r-text h2{
+  font-size: 25px;
+}
+.f_a{
+  font-size: 16px;
+  height: 40px;
+}
+.f-submit{
+  font-size: 16px;
+  height: 45px;
+  margin: 15px 0  !important;
+}
+/*reservation end*/
+/*footer start*/
+.section-title p {
+    font-size: 30px;
+}
+.footer-info{
+  text-align: center;
+}
+.social-links{
+  margin:40px 0; 
+}
+.footer-links{
+text-align: center;
+}
+.footer-links ul li a{
+  margin: 0 auto !important;
+}
+/*footer end*/
+ }
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/*header start*/
+.menu ul li a{
+	font-size: 18px;
+	padding: 5px 0 !important;
+ text-align: right;
+   }
+/*header end*/
+/*slider start*/
+.cid [data-bs-target] {
+    width:10px;
+    height: 10px;
+     margin-right: 2px;
+}
+  .banner h2 {
+    font-size:47px;
+}
+  .banner p {
+    font-size:26px;
+}
+
+/*slider start*/
+ /*single start*/
+ .food h1 {
+    font-size: 52px;
+    } 
+    .food p {
+    font-size: 36px;
+  }
+  .story {
+    margin: 40px 0;
+}
+ .story:hover span {
+    width: 70px;
+}
+.single-item h1 {
+    top:32px;
+    left: 10px;
+    font-size: 22px;
+    line-height: 20px;
+}
+.single-item h2 {
+    font-size: 18px;
+    top: 10px;
+    left: 10px;
+}
+.single-item2 h1 {
+    top: 22px;
+    left: 8px;
+    font-size: 18px;
+}
+.single-item2 h2 {
+    top: 6px;
+    left: 8px;
+    font-size: 16px;
+}
+/*single end*/
+/*meun*/
+.men-content span {
+    padding: 0 0 0 190px;
+}
+.men-content a::after {
+        width: 160px;
+       left: 160px;
+    top: 17px;
+  }
+/*event strat*/
+  .cid1 {
+    bottom: -20px;
+    right: 0px;
+}
+.e_p{
+   font-size:16px;
+  margin:6px 0 0 ;
+}
+.e_h3{
+  font-size:30px;
+  margin:8px  0 ;
+}
+.e_p1{
+ font-size:18px;
+ line-height: 22px;
+}
+ul li p{
+  font-size: 18px;
+  margin:6px 0 6px 30px;
+}
+ul li i{
+  margin: 12px 0 ;
+  font-size:30px;
+}
+/*event end*/
+/*reservation start*/
+.r-text{
+  margin:80px 0 ;
+}
+.r-text p{
+  font-size: 25px;
+}
+.r-text h2{
+  font-size: 38px;
+}
+.f_a{
+  height: 40px;
+}
+.f-submit{
+  font-size: 16px;
+  height: 45px;
+  margin: 15px 0 0 !important;
+}
+/*reservation end*/
+/*footer start*/
+.footer-info{
+  text-align: center;
+}
+.social {
+    bottom: 70px;
+    }
+    .member-info-content {
+    bottom: 150px;
+  }
+  .social a {
+    margin: 0 7px;
+  }
+.social-links{
+  margin:40px 0; 
+}
+.footer-links{
+text-align: center;
+}
+.footer-links ul li a{
+  margin: 0 auto !important;
+}
+/*footer end*/
+ }
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/*header start*/
+.menu ul li a{
+	padding: 5px 0 !important;
+      text-align: right;
+   }
+/*header end*/
+/*slider start*/
+
+.cid {
+    bottom: -15px;
+}
+.cid [data-bs-target] {
+    width:9px;
+    height: 9px;
+}
+.cid [data-bs-target] {
+    width:10px;
+    height: 10px;
+}
+  .banner p {
+    font-size: 36px;
+}
+/*slider end*/
+/*single start*/
+.story {
+    margin: 70px 0;
+}
+.single-item h1 {
+    font-size: 30px;
+    top: 50px;
+}
+.single-item h2 {
+    top: 20px;
+}
+.single-item2 h1 {
+    font-size: 30px;
+    top: 40px;
+}
+.single-item2 h2 {
+    font-size: 25px;
+    top: 15px;
+}
+/*single end*/
+/*event strat*/
+
+.cid1 {
+    bottom:-18px ;
+}
+
+.event-item img{
+  margin:15px 0 0 6px;
+}
+.e_a{
+  margin:0 0 0 6px;
+}
+.e_p{
+   font-size:18px;
+  margin:8px 0 0 ;
+}
+.e_h3{
+  font-size:35px;
+  margin:8px  0 ;
+}
+.e_p1{
+ font-size:18px;
+ line-height: 25px;
+}
+ul li p{
+  font-size:20px;
+  margin:15px 0 6px 30px;
+}
+ul li i{
+  margin: 12px 0 ;
+  font-size:35px;
+}
+/*event end*/
+/*meun*/
+.men-content span {
+    padding: 0 0 0 200px;
+}
+.men-content a::after {
+        width: 170px;
+  }
+  .food p {
+    font-size: 25px;
+  }
+  .food h1 {
+    font-size: 45px;
+}
+/*reservation start*/
+.f-submit{
+  font-size: 16px;
+  height: 50px;
+  margin: 15px 200px 30px !important;
+}
+.r-text {
+    margin: 120px 0;
+}
+/*reservation end*/
+
+
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  /*silder start*/
+  .cid {
+    bottom:-20px ;
+}
+
+  /*silder end*/
+/*event strat*/
+  .cid1 {
+    bottom:-20px ;
+}
+.event-item img{
+  margin: 55px 0 60px;
+}
+.e_p{
+
+  margin: 13px 0 0;
+}
+.e_h3{
+  margin: 0 0 8px;
+}
+ul li p{
+  font-size:18px;
+  margin:5px 0 6px 30px;
+}
+ul li i{
+  margin: 10px 0 ;
+  font-size:32px;
+}
+/*event end*/
+/*meun*/
+.men-content span {
+    padding: 0 0 0 150px;
+}
+.men-content a::after {
+        width: 120px;
+  }
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px){ 
+
+
+ }
+/* extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) { 
+
+
+ }
+
+
+
